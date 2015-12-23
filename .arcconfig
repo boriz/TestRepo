@@ -1,0 +1,23 @@
+{
+	"phabricator.uri" : "http://dmc-phab.cloudapp.net/",
+
+	"linters": 
+	{
+		"C and C++ files": 
+		{
+			"type": "cppcheck",
+			"include": "(\\.c$)"
+		},
+		
+		"Text files": 
+		{
+			"type": "text",
+			"include": "(\\.txt$)"
+		},
+		
+		"File name": 
+		{
+			"type": "filename"
+		}
+	}
+}
